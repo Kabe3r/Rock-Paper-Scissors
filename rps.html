@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="rps.css">
+      <title>Rock Paper Scissors</title>
+      <link rel="icon" href="images/main-img.png" type="image/png">
+</head>
+<body>
+      <main>
+            <h1>Rock Paper & Scissors</h1>
+            <div id="winner"></div>
+            <div class="main-content">
+                  <div class="player-selection">
+                        <h2>Player Selection:</h2>
+                        <h2 id="player-choice"></h2>
+                        <h2>Player Score:</h2>
+                        <h2 id="player-score"></h2>
+                        <div class="btn">
+                              <button class="player-btn">Rock</button>
+                              <button class="player-btn">Paper</button>
+                              <button class="player-btn">Scissors</button>
+                        </div>
+                  </div>
+                  <div class="computer-selection">
+                        <h2>Computer Selection:</h2>            
+                        <h2 id="computer-choice"></h2>            
+                        <h2>Computer Score:</h2>
+                        <h2 id="computer-score"></h2>
+                        <div class="btn">
+                              <button class="start">Start</button>
+                              <button class="end">End</button>
+                        </div>
+                  </div>
+            </div>
+            <div class="images">
+                  <div class="player">
+                        <img id="player-img" src="./images/Rock.png" alt="">
+                  </div>
+                  <div class="computer">
+                        <img id="computer-img"  src="./images/Rock.png" alt="">  
+                  </div>
+            </div>
+             
+      </main>
+      <script src="rps.js"></script>
+</body>
+</html>
